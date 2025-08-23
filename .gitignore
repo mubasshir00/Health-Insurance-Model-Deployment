@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+logs/
+*.out
+
+# Coverage / testing
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tar
+*.log
+docker-compose.override.yml
+
+# OS
+Thumbs.db
