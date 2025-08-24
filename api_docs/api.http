@@ -1,0 +1,26 @@
+POST http://localhost:8000/predict
+Content-Type: application/json
+
+{
+   {
+  "id": "88dd2a8b492494d175feb1454cc987dd0cd108be9debfba5a2033dec1c9ed168",
+  "inputs": {
+    "TotalClaims": 2000,
+    "TotalReimbursed": 2000000.0,
+    "TotalDeductible": 10.0,
+    "Avg_LOS": 0.5,
+    "MostCommonGender": 1,
+    "MostCommonRace": 1,
+    "Avg_Diabetes": 1.0,
+    "Avg_HeartFailure": 1.0,
+    "Avg_Depression": 1.0,
+    "Avg_IschemicHeart": 1.0,
+    "Avg_Stroke": 1.0,
+    "Avg_IP_Reimbursed": 50000.0,
+    "Avg_OP_Reimbursed": 20000.0,
+    "Avg_IP_Deductible": 0.0,
+    "Avg_OP_Deductible": 0.0
+  }
+}
+
+}
